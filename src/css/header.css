@@ -1,5 +1,13 @@
+.page-header {
+}
+
 .header-container {
   background-color: #fbfbfb;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 32px;
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
 }
 
 .header-logo {
@@ -20,4 +28,13 @@
 .header-nav-link:hover,
 .header-nav-link:focus {
   background-color: #1b414b;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 4px;
+  width: 281px;
 }
