@@ -6,7 +6,23 @@
   text-align: center;
 }
 
+.hero-section {
+  position: relative;
+  max-width: 1600px;
+  min-height: 674px;
+  margin: 0 auto;
+  padding: 202px 0 166px;
+  overflow: hidden;
+  background-image: url('../img/hero/hero-desk.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .hero-text {
+  max-width: 720px;
+  margin-top: 24px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.4;
   text-align: center;
@@ -20,6 +36,20 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   background-color: #1b414b;
+  margin-top: 40px;
+  border-radius: 15px;
+  padding: 16px 40px;
+  width: 179px;
+  height: 52px;
+}
+
+.hero-container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .hero-button:hover,
